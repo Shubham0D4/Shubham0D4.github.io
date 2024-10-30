@@ -114,7 +114,10 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .desk{
-    color: rgb(119, 0, 255);
+    color: rgb(115, 8, 255);
+}
+.main, .sub{
+    color: rgb(255, 255, 255);
 }
 .bio{
     font-size: 14px;

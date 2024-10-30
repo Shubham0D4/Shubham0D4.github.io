@@ -1,0 +1,202 @@
+/* Responsive CSS */
+
+/* Base Adjustments */
+html, body {
+    /* max-width: 100vw; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .box-1 {
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+
+    .box-2 {
+        padding: 2rem;
+        margin: 5rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .img {
+        width: 80%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .card, .card-0 {
+        max-width: 48%;
+        height: auto;
+    }
+
+    .box-3 {
+        /* height: auto; */
+        overflow-y: auto;
+    }
+
+    .projecto {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .box-4 {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    nav {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .box-1 {
+        display: none;
+    }
+
+    .intro .name {
+        font-size: 24px;
+    }
+
+    .header {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .box-2 {
+        padding: 2rem 1rem;
+        margin: 4rem 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .iam {
+        font-size: 24px;
+    }
+
+    .bio {
+        font-size: 12px;
+    }
+
+    .connect {
+        width: 100px;
+        height: 35px;
+    }
+
+    .edu, .skill {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .card-0 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .exp h4 {
+        font-size: 24px;
+    }
+
+    .projecto {
+        padding: 0;
+    }
+
+    .box-4 {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .tex h4 {
+        font-size: 22px;
+    }
+
+    .tex h5, .desc {
+        font-size: 12px;
+    }
+
+    .box-5 {
+        flex-direction: column;
+        margin: 20px 5%;
+    }
+
+    .contacto {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .copy {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    h3, .title, .appo {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .bio {
+        font-size: 10px;
+    }
+
+    .exp h4 {
+        font-size: 20px;
+    }
+
+    .exp h6 {
+        font-size: 10px;
+    }
+
+    .tex h4 {
+        font-size: 18px;
+    }
+
+    .tex h5, .desc {
+        font-size: 10px;
+    }
+
+    .contacto, .box-4, .box-5 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    input, textarea, .input {
+        width: 100%;
+        font-size: 12px;
+    }
+}
