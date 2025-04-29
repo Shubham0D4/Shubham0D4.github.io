@@ -91,13 +91,13 @@ const Navbar: React.FC = () => {
           <button onClick={() => scrollToSection('education')} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Education</button>
           <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</button>
           <div className="flex space-x-4 px-3 py-2">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+            <a href="https://github.com/Shubham0D4" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+            <a href="https://linkedin.com/shubham-darekar-236424257" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:example@example.com" className="text-gray-300 hover:text-white">
+            <a href="mailto:darekarshubham2005@gmail.com" className="text-gray-300 hover:text-white">
               <Mail size={20} />
             </a>
           </div>
