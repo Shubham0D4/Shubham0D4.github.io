@@ -47,7 +47,7 @@ const About: React.FC = () => {
               </div>
               <div>
                 <p className="text-gray-400">Email:</p>
-                <p className="font-semibold text-white">example@gmail.com</p>
+                <p className="font-semibold text-white">darekarshubham2005@gmail.com.com</p>
               </div>
               <div>
                 <p className="text-gray-400">Location:</p>
@@ -59,7 +59,10 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            <button className="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105">
+            <button
+              className="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105"
+              onClick={() => window.open("https://drive.google.com/file/d/1XlOhk67TG4zcZPXDVrDWu8lgsVy29RhQ/view?usp=drive_link", "_blank")}
+            >
               Download Resume
             </button>
           </div>
