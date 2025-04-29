@@ -18,6 +18,20 @@ const Hero: React.FC = () => {
     }
   };
 
+  const scrollToProject = () => {
+    const aboutSection = document.getElementById('projects');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToContacts = () => {
+    const aboutSection = document.getElementById('contact');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative h-screen flex items-center justify-center bg-gray-950 overflow-hidden">
       {/* Background animation */}
@@ -40,10 +54,18 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mt-8 animate-bounce-in-delay">
-            <button className="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors duration-300 transform hover:scale-105">
+            <button 
+              className="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors duration-300 transform hover:scale-105"
+              onClick={scrollToProject}
+              aria-label="Scroll down"
+              >
               View Projects
             </button>
-            <button className="px-6 py-3 bg-transparent border border-indigo-500 text-indigo-500 rounded-md hover:bg-indigo-500 hover:text-white transition-all duration-300 transform hover:scale-105">
+            <button 
+              className="px-6 py-3 bg-transparent border border-indigo-500 text-indigo-500 rounded-md hover:bg-indigo-500 hover:text-white transition-all duration-300 transform hover:scale-105"
+              onClick={scrollToContacts}
+              aria-label="Scroll down"
+              >
               Contact Me
             </button>
           </div>
