@@ -7,6 +7,8 @@ export const skills: Skill[] = [
   { id: 2, name: 'JavaScript', category: 'languages', icon: 'Code2' },
   { id: 3, name: 'HTML5', category: 'languages', icon: 'Code2' },
   { id: 4, name: 'CSS3', category: 'languages', icon: 'Code2' },
+  { id: 5, name: 'Java', category: 'languages', icon: 'Code2'},
+  { id: 6, name: 'Bash', category: 'languages', icon: 'Code2'},
   
   // Frameworks/Libraries
   { id: 5, name: 'Node.js', category: 'frameworks', icon: 'Server' },
@@ -26,6 +28,7 @@ export const skills: Skill[] = [
   { id: 15, name: 'MySQL CLI and Workbench', category: 'tools', icon: 'Wrench' },
   { id: 16, name: 'Git and GitHub', category: 'tools', icon: 'Wrench' },
   { id: 17, name: 'Debian, Ubuntu, Linux terminal', category: 'tools', icon: 'Wrench' },
+  { id: 18, name: 'Docker, Docker cmd', category: 'tools', icon: 'Wrench'}
 ];
 
 export const getIconComponent = (iconName: string | undefined) => {
